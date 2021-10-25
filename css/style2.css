@@ -1,3 +1,6 @@
+header {
+    padding-left: 8%;
+}
 article, section {
     margin: auto;
     width: 80%;
