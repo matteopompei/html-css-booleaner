@@ -1,0 +1,123 @@
+html,body {
+    width:100%;
+    height:100%;
+}
+body {
+    margin: 0;
+    background-color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #000;
+}
+
+header {
+    padding-left: 8%;
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: 50%;
+}
+
+#logo {
+    width: 250px;
+    margin: 70px 20px 20px 20px;
+}
+
+article, section {
+    margin: 50px auto;
+    width: 80%;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.info {
+    margin: 15px 0;
+}
+
+.autore, .data {
+    display: block;
+    color: #8c8c8c;
+}
+
+.autore {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.autore a {
+    color: #27ace6;
+    text-decoration: none;
+}
+
+.data {
+    font-size: 12px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th {
+    background-color: #20a9e5;
+    color: #FFF;
+}
+
+table td {
+    padding: 10px 0;
+    min-width: 300px;
+}
+
+tr:nth-child(even) {
+    background-color: #b1e5f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
+h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8c8c8c;
+}
+
+.articolo1, .articolo2 {
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.articolo1 {
+    background-image: url(../img/monitor.jpg);
+}
+
+.articolo2 {
+    background-image: url(../img/graph.jpg);
+}
+
+section a {
+    text-decoration: none;
+}
+
+h6 {
+    display: inline;
+    font-size: 18px;
+    color: #FFF;
+}
